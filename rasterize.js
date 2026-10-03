@@ -373,7 +373,7 @@ function renderTriangles() {
     mat4.rotateZ(
         inputTriangles[0].mMatrix,
         inputTriangles[0].mMatrix,
-        Math.PI / 8
+        -Math.PI / 8
     );
 
 
